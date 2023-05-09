@@ -2,7 +2,7 @@ import requests
 from colorama import init, Fore, Back, Style
 
 init(autoreset=True)
-bin_number = input('Ingrese el número del BIN: ')
+bin_number = input(5420348019412430)
 url = f'https://lookup.binlist.net/{bin_number}'
 
 response = requests.get(url)
